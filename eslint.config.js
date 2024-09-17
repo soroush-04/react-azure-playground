@@ -34,6 +34,7 @@ export default [
         { allowConstantExport: true },
       ],
       'react/prop-types': 'off',  // Disable prop-types validation
+      'no-unused-vars': ['error', { 'varsIgnorePattern': '^React$' }], //ignore the 'no-unused-vars' rule for 'React'
     },
   },
 ]
