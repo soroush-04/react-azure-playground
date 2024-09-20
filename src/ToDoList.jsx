@@ -5,8 +5,7 @@ function ToDoList() {
     const [newTask, setNewTask] = useState("");
 
     function handleInputChange(event) {
-        // setNewTask(event.target.value)
-
+        setNewTask(event.target.value)
     }
 
     function addTask() {
@@ -27,7 +26,7 @@ function ToDoList() {
 
     return(
         <div className="to-do-list">
-            <h1>To Do List</h1>
+            <h1>To-Do-List</h1>
 
             <div>
                 <input 
